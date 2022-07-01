@@ -13,7 +13,7 @@ public class StarPatternTrianglePrint {
 		}
 		
 		for(int x=0;x<=4;x++) {
-			for(int y=4;y>=x;y--) {
+			for(int y=3;y>=x;y--) {
 				System.out.print("*");
 			}
 			System.out.println();
